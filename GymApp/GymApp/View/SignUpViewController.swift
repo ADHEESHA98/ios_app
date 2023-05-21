@@ -73,7 +73,6 @@ class SignUpViewController: UIViewController {
         textField.borderStyle = .roundedRect
         textField.placeholder = "password"
         textField.textContentType = .password
-        textField.isSecureTextEntry.toggle()
         textField.backgroundColor = .systemGray6
         return textField
     }()
@@ -92,7 +91,6 @@ class SignUpViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.borderStyle = .roundedRect
         textField.placeholder = "Phone"
-        textField.isSecureTextEntry.toggle()
         textField.keyboardType = .numberPad
         textField.backgroundColor = .systemGray6
         return textField
@@ -101,6 +99,7 @@ class SignUpViewController: UIViewController {
         let input = UITextField()
         input.placeholder = "Age"
         input.text = ""
+        input.borderStyle = .roundedRect
         input.keyboardType = .numberPad
         input.backgroundColor = .systemGray6
         input.translatesAutoresizingMaskIntoConstraints = false

@@ -13,21 +13,12 @@ class BMIViewController: UIViewController {
     let firstLabel : UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Calculate Your BMI"
+        label.text = "Calculate BMI"
         label.font = .systemFont(ofSize: 25, weight: .bold)
         return label
     }()
     
-    let greetingLabel : UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Please Fill Data"
-        label.numberOfLines = 2
-        label.lineBreakMode = .byWordWrapping
-        label.textAlignment = .center
-        return label
-    }()
-    
+
     let holder : UIStackView = {
         let holder = UIStackView()
         holder.translatesAutoresizingMaskIntoConstraints = false
@@ -120,7 +111,6 @@ class BMIViewController: UIViewController {
         view.backgroundColor = .white
         
         holder.insertArrangedSubview(firstLabel, at: 0)
-        holder.insertArrangedSubview(greetingLabel, at: 1)
         
         textFieldHolder.insertArrangedSubview(ageField, at: 0)
         textFieldHolder.insertArrangedSubview(massField, at: 1)

@@ -104,7 +104,7 @@ class LoginViewController: UIViewController {
     let registerLabel : UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Not a member? Register Now Click Below"
+        label.text = "Register Now Click Below"
         return label
     }()
 
