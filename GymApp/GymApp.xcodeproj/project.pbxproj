@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09303B472A19AC0900E93F17 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B3F2A19AC0800E93F17 /* ExerciseViewController.swift */; };
+		09303B492A19AC0900E93F17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B412A19AC0800E93F17 /* LoginViewController.swift */; };
+		09303B4A2A19AC0900E93F17 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B422A19AC0900E93F17 /* BMIViewController.swift */; };
+		09303B4C2A19AC0900E93F17 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B442A19AC0900E93F17 /* SignUpViewController.swift */; };
+		09303B4D2A19AC0900E93F17 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B452A19AC0900E93F17 /* HomeViewController.swift */; };
+		09303B692A19AD2A00E93F17 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B672A19AD2A00E93F17 /* ExerciseModel.swift */; };
+		09303B6A2A19AD2A00E93F17 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B682A19AD2A00E93F17 /* UserModel.swift */; };
+		09303B6F2A19AD4B00E93F17 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B6E2A19AD4B00E93F17 /* Controller.swift */; };
+		09303B752A19B00600E93F17 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 09303B742A19B00600E93F17 /* Kingfisher */; };
+		09303B7B2A19B11700E93F17 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09303B7A2A19B11700E93F17 /* ExerciseCell.swift */; };
 		0932F2082A193692008BBBF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932F2072A193692008BBBF7 /* AppDelegate.swift */; };
 		0932F20A2A193692008BBBF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932F2092A193692008BBBF7 /* SceneDelegate.swift */; };
 		0932F20C2A193692008BBBF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932F20B2A193692008BBBF7 /* ViewController.swift */; };
@@ -15,6 +25,7 @@
 		0932F21F2A1936B9008BBBF7 /* GymAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932F21E2A1936B9008BBBF7 /* GymAppTests.swift */; };
 		0932F22A2A1936B9008BBBF7 /* GymAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932F2292A1936B9008BBBF7 /* GymAppUITests.swift */; };
 		0932F2582A194852008BBBF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0932F2572A194851008BBBF7 /* GoogleService-Info.plist */; };
+		0932F2612A194A00008BBBF7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932F2602A194A00008BBBF7 /* ProfileViewController.swift */; };
 		2FA0D64CA8ECE8E099548F12 /* Pods_GymApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AF0A229F91F5F4B786E584 /* Pods_GymApp.framework */; };
 		6505738718311D4941DA5EC4 /* Pods_GymAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29092DB1ACD90D4C308518D /* Pods_GymAppTests.framework */; };
 		D539809CF6CAD62CD239FDA5 /* Pods_GymApp_GymAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE2B7CEB3BAB5D61421964 /* Pods_GymApp_GymAppUITests.framework */; };
@@ -38,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09303B3F2A19AC0800E93F17 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		09303B412A19AC0800E93F17 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		09303B422A19AC0900E93F17 /* BMIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		09303B442A19AC0900E93F17 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		09303B452A19AC0900E93F17 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		09303B672A19AD2A00E93F17 /* ExerciseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		09303B682A19AD2A00E93F17 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		09303B6E2A19AD4B00E93F17 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		09303B7A2A19B11700E93F17 /* ExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
 		0932F2042A193692008BBBF7 /* GymApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0932F2072A193692008BBBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0932F2092A193692008BBBF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +72,7 @@
 		0932F2292A1936B9008BBBF7 /* GymAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppUITests.swift; sourceTree = "<group>"; };
 		0932F22B2A1936B9008BBBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0932F2572A194851008BBBF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0932F2602A194A00008BBBF7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		11527F4D49D04389745F89B6 /* Pods-GymApp-GymAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymApp-GymAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-GymApp-GymAppUITests/Pods-GymApp-GymAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		370F281BBBEB0428108EDFCA /* Pods-GymApp-GymAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymApp-GymAppUITests.release.xcconfig"; path = "Target Support Files/Pods-GymApp-GymAppUITests/Pods-GymApp-GymAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7CAE2B7CEB3BAB5D61421964 /* Pods_GymApp_GymAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymApp_GymAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09303B752A19B00600E93F17 /* Kingfisher in Frameworks */,
 				2FA0D64CA8ECE8E099548F12 /* Pods_GymApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +113,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09303B552A19AC4000E93F17 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				09303B672A19AD2A00E93F17 /* ExerciseModel.swift */,
+				09303B682A19AD2A00E93F17 /* UserModel.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		09303B592A19AC4A00E93F17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09303B6E2A19AD4B00E93F17 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09303B792A19B0F300E93F17 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				09303B7A2A19B11700E93F17 /* ExerciseCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
 		0932F1FB2A193692008BBBF7 = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +163,12 @@
 		0932F2062A193692008BBBF7 /* GymApp */ = {
 			isa = PBXGroup;
 			children = (
+				09303B592A19AC4A00E93F17 /* Controller */,
+				09303B552A19AC4000E93F17 /* DTO */,
+				0932F25C2A1949A2008BBBF7 /* View */,
 				0932F2572A194851008BBBF7 /* GoogleService-Info.plist */,
 				0932F2072A193692008BBBF7 /* AppDelegate.swift */,
 				0932F2092A193692008BBBF7 /* SceneDelegate.swift */,
-				0932F20B2A193692008BBBF7 /* ViewController.swift */,
 				0932F2102A1936B8008BBBF7 /* Assets.xcassets */,
 				0932F2122A1936B8008BBBF7 /* LaunchScreen.storyboard */,
 				0932F2152A1936B8008BBBF7 /* Info.plist */,
@@ -143,6 +192,21 @@
 				0932F22B2A1936B9008BBBF7 /* Info.plist */,
 			);
 			path = GymAppUITests;
+			sourceTree = "<group>";
+		};
+		0932F25C2A1949A2008BBBF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09303B792A19B0F300E93F17 /* ViewCell */,
+				09303B422A19AC0900E93F17 /* BMIViewController.swift */,
+				09303B3F2A19AC0800E93F17 /* ExerciseViewController.swift */,
+				09303B452A19AC0900E93F17 /* HomeViewController.swift */,
+				09303B412A19AC0800E93F17 /* LoginViewController.swift */,
+				09303B442A19AC0900E93F17 /* SignUpViewController.swift */,
+				0932F20B2A193692008BBBF7 /* ViewController.swift */,
+				0932F2602A194A00008BBBF7 /* ProfileViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		3CC8639B5112D8B083E7B52D /* Pods */ = {
@@ -186,6 +250,9 @@
 			dependencies = (
 			);
 			name = GymApp;
+			packageProductDependencies = (
+				09303B742A19B00600E93F17 /* Kingfisher */,
+			);
 			productName = GymApp;
 			productReference = 0932F2042A193692008BBBF7 /* GymApp.app */;
 			productType = "com.apple.product-type.application";
@@ -260,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 0932F1FB2A193692008BBBF7;
+			packageReferences = (
+				09303B732A19B00600E93F17 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 0932F2052A193692008BBBF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -406,9 +476,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09303B492A19AC0900E93F17 /* LoginViewController.swift in Sources */,
+				09303B4A2A19AC0900E93F17 /* BMIViewController.swift in Sources */,
 				0932F20C2A193692008BBBF7 /* ViewController.swift in Sources */,
+				09303B472A19AC0900E93F17 /* ExerciseViewController.swift in Sources */,
 				0932F2082A193692008BBBF7 /* AppDelegate.swift in Sources */,
+				09303B7B2A19B11700E93F17 /* ExerciseCell.swift in Sources */,
+				09303B4D2A19AC0900E93F17 /* HomeViewController.swift in Sources */,
+				09303B6F2A19AD4B00E93F17 /* Controller.swift in Sources */,
+				09303B4C2A19AC0900E93F17 /* SignUpViewController.swift in Sources */,
+				0932F2612A194A00008BBBF7 /* ProfileViewController.swift in Sources */,
 				0932F20A2A193692008BBBF7 /* SceneDelegate.swift in Sources */,
+				09303B6A2A19AD2A00E93F17 /* UserModel.swift in Sources */,
+				09303B692A19AD2A00E93F17 /* ExerciseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +813,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09303B732A19B00600E93F17 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09303B742A19B00600E93F17 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09303B732A19B00600E93F17 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0932F1FC2A193692008BBBF7 /* Project object */;
 }
