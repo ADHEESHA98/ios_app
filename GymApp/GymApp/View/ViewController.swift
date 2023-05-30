@@ -39,7 +39,7 @@ class ViewController: UITabBarController,UITabBarControllerDelegate {
             homeview.title = "Home"
             
             let loginview = UINavigationController(rootViewController: BMIViewController())
-            loginview.tabBarItem.image = UIImage(systemName: "person")
+            loginview.tabBarItem.image = UIImage(systemName: "heart")
             loginview.title = "BMI"
             
            
