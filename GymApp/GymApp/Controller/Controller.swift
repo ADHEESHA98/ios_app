@@ -11,7 +11,7 @@ struct Controller {
     
     func login(email: String, password: String, completionBlock: @escaping (_ success: Bool) -> Void) {
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
-            if let error = error, let _ = AuthErrorCode(rawValue: error._code) {
+            if error != nil {
                 completionBlock(false)
             } else {
                 completionBlock(true)
