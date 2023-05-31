@@ -51,11 +51,14 @@ class ExerciseViewController: UIViewController {
         
         exerciseImg.kf.setImage(with: URL(string: exe?.img ?? ""))
         
+        
     }
     let nameLbl : UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = ""
+        label.font = .systemFont(ofSize: 22.0, weight: .bold)
+        label.textAlignment = .left
         return label
     }()
     
@@ -63,6 +66,7 @@ class ExerciseViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = ""
+        label.font = .systemFont(ofSize: 17.0, weight: .regular)
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
         return label
@@ -77,7 +81,6 @@ class ExerciseViewController: UIViewController {
         holder.spacing = 15
         holder.alignment = .center
         holder.layer.cornerRadius = 10
-        holder.backgroundColor = UIColor(red: 0.224, green: 0.902, blue: 0, alpha: 0.1)
         return holder
         
     }()

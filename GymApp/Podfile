@@ -10,6 +10,7 @@ target 'GymApp' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod "youtube-ios-player-helper", "~> 1.0.4"
 
 
   target 'GymAppTests' do

@@ -44,7 +44,7 @@ class HomeViewController: UIViewController {
     let heading: UILabel = {
         let lb = UILabel()
         lb.text = "Exercise List"
-        lb.textColor = .green
+        lb.textColor = .darkGray
         lb.font = UIFont.boldSystemFont(ofSize: 24)
         lb.translatesAutoresizingMaskIntoConstraints = false
         return lb
@@ -54,7 +54,7 @@ class HomeViewController: UIViewController {
         let list = UITableView(frame: .zero)
         list.translatesAutoresizingMaskIntoConstraints = false
         list.showsVerticalScrollIndicator = false
-        list.backgroundColor = UIColor(red: 0.224, green: 0.902, blue: 0, alpha: 0.1)
+        list.backgroundColor = .white
         list.layer.cornerRadius = 10
         return list
     }()
@@ -72,7 +72,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         cell.layoutMargins = UIEdgeInsets.zero
         cell.separatorInset = UIEdgeInsets.zero
         cell.selectionStyle = .none
-        cell.backgroundColor = UIColor(red: 0.224, green: 0.902, blue: 0, alpha: 0.1)
+        cell.backgroundColor = .white
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

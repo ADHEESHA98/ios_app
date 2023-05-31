@@ -27,6 +27,7 @@
 		0932F2582A194852008BBBF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0932F2572A194851008BBBF7 /* GoogleService-Info.plist */; };
 		0932F2612A194A00008BBBF7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932F2602A194A00008BBBF7 /* ProfileViewController.swift */; };
 		2FA0D64CA8ECE8E099548F12 /* Pods_GymApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AF0A229F91F5F4B786E584 /* Pods_GymApp.framework */; };
+		603DDBE12A26C1270052808A /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 603DDBE02A26C1270052808A /* YouTubeiOSPlayerHelper */; };
 		6505738718311D4941DA5EC4 /* Pods_GymAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29092DB1ACD90D4C308518D /* Pods_GymAppTests.framework */; };
 		D539809CF6CAD62CD239FDA5 /* Pods_GymApp_GymAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE2B7CEB3BAB5D61421964 /* Pods_GymApp_GymAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -91,6 +92,7 @@
 			files = (
 				09303B752A19B00600E93F17 /* Kingfisher in Frameworks */,
 				2FA0D64CA8ECE8E099548F12 /* Pods_GymApp.framework in Frameworks */,
+				603DDBE12A26C1270052808A /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +254,7 @@
 			name = GymApp;
 			packageProductDependencies = (
 				09303B742A19B00600E93F17 /* Kingfisher */,
+				603DDBE02A26C1270052808A /* YouTubeiOSPlayerHelper */,
 			);
 			productName = GymApp;
 			productReference = 0932F2042A193692008BBBF7 /* GymApp.app */;
@@ -329,6 +332,7 @@
 			mainGroup = 0932F1FB2A193692008BBBF7;
 			packageReferences = (
 				09303B732A19B00600E93F17 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				603DDBDF2A26C1270052808A /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
 			);
 			productRefGroup = 0932F2052A193692008BBBF7 /* Products */;
 			projectDirPath = "";
@@ -823,6 +827,14 @@
 				minimumVersion = 7.7.0;
 			};
 		};
+		603DDBDF2A26C1270052808A /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -830,6 +842,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 09303B732A19B00600E93F17 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		603DDBE02A26C1270052808A /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 603DDBDF2A26C1270052808A /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

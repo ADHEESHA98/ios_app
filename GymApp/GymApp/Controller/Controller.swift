@@ -64,8 +64,9 @@ struct Controller {
                 let img = placeDict["img"] as! String
                 let name = placeDict["name"] as! String
                 let description = placeDict["description"] as! String
+                let video = placeDict["video"] as! String
                 
-                list.append(ExerciseModel(img: img, name: name,description:description))
+                list.append(ExerciseModel(img: img, name: name,description:description, video: video))
             }
             completionBlock(list)
         }

@@ -10,5 +10,6 @@ struct ExerciseModel: Identifiable {
     var id: String = UUID().uuidString
     var img: String
     var name: String
-    var description:String
+    var description: String
+    var video: String
 }
